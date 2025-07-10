@@ -1,0 +1,101 @@
+ *{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Poppins' , sans-serif ;
+}
+#container{
+  max-width: 900px;
+  text-align: center;
+  margin: 0 auto;
+}
+h1{
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: green;
+}
+input{
+  padding: 9px 28px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-right: 15px;
+}
+input:focus{
+  border-color: blue;
+  outline: 0;
+}
+label{
+  font-size: 20px;
+}
+#input{
+  margin-bottom: 30px;
+}
+button{
+  padding: 10px 20px;
+  border: none;
+  background-color: green;
+  font-size: 18px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer; 
+  transition: .5s;
+}
+button:hover{
+  background-color: red;
+}
+#add-button{
+  padding: 11px 30px;
+}
+#update-button{
+  padding: 10px 18px;
+  background-color: blue;
+  transition: .5s;
+}
+#update-button:hover{
+  background-color: purple;
+}
+#cancle-button{
+  padding: 10px 18px;
+  background-color: rgb(114, 102, 220);
+}
+#cancel-button:hover{
+  background-color: coral;
+}
+table{
+  width: 100%;
+  margin-bottom: 30px;
+  border-collapse: collapse;
+}
+tr,th{
+  padding: 9px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+th{
+  background-color: green;
+  color: white;
+}
+#update-con{
+  display: none;
+  justify-content: space-between;
+  margin-right: 50px;
+  margin-top: 45px;
+}
+tbody,td
+{
+  color:black;
+  padding: 5px;
+  border: 0.5px solid black;
+}
+.edit-btn{
+  width: 90px;
+  background-color: red;
+  margin: 5px;
+}
+.delete-btn{
+  background-color: rgb(213, 0, 142);
+}
